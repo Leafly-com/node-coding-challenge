@@ -1,5 +1,12 @@
 # node-coding-challenge
 
-This is a repo to host algorithm exercises for node-familiar candidates.
+Welcome to the Leafly Node Coding Challenge!
 
-(More readme to come!)
+This project uses `jest` as a test runner. To install dependencies, run: 
+`npm i`
+
+Select the file with the exercise to be completed in the `src` directory. There are instructions, expectations, and examples within each file specific to the exercise. 
+
+To run the assertions tied to the specific exercise, you can run the test command appending the relevant path: 
+
+`npm test src/find-sums.test.js`

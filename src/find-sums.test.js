@@ -13,11 +13,13 @@
 // Output: [0,1]
 
 
+
+// Please complete your solution here:
 const findSums = (integers, target) => {
   return;
 };
 
-xdescribe('findSums tests', function() {
+describe('findSums tests', function() {
   it('should pass test suite', () => {
     expect(findSums([9, 4, 5, 2], 6)).toEqual([4, 2]);
     expect(findSums([3, 5, 4, 13, 7], 9)).toEqual([5, 4]);

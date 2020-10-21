@@ -11,11 +11,14 @@
 // Input: "))))(()("
 // Output: "(((())))(()())"
 
+
+
+// Please complete your solution here:
 const fixParentheses = (string) => {
   return;
 };
 
-xdescribe('fixParentheses tests', function() {
+describe('fixParentheses tests', function() {
   it('should pass test suite', () => {
     expect(fixParentheses('')).toEqual('');
     expect(fixParentheses('(()')).toEqual('(())');
