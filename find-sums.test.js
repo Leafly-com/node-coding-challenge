@@ -21,6 +21,7 @@ xdescribe('findSums tests', function() {
   it('should pass test suite', () => {
     expect(findSums([9, 4, 5, 2], 6)).toEqual([4, 2]);
     expect(findSums([3, 5, 4, 13, 7], 9)).toEqual([5, 4]);
+    expect(findSums([4, 2], 8)).toEqual(undefined);
     expect(findSums([9, 5, 2, 4, 8], 17)).toEqual([9, 8]);
     expect(findSums([3, 1, 4, 7, 12], 13)).toEqual([1, 12]);
     expect(findSums([2, 3, 7, 5, 9], 8)).toEqual([3, 5]);
